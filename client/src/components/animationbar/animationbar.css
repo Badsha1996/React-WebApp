@@ -1,0 +1,77 @@
+/*===============================================================================
+                ===========================================
+                +++++++++++++++DEFAULT VALUES++++++++++++++
+
+                    FONT FAMILY- Robot-condenced
+                    Turquoise Blue- #47E6E6 (line,links,icons and background)
+                    Outer Space-    #1E2B2B (Heading)
+                    Mineral Green-  #3F5957 (paragraph)
+                    white-          #fff    (text with black backgroud)
+                    Black-          #000    
+                ===========================================
+=================================================================================*/
+/*===============================================================================
+                ***********Home-section-stylling*************
+             +++++++++++++[HERO BACKGROUND IMAGE]+++++++++++++++++
+==================================================================================*/
+
+#home {
+    height: 100%
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../animationbar/img/animation.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#home-content-box {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#heading h2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#lowHeading h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:cursive;
+}
+
+
+/*================================================================================
+                         ********ANIMATIONS*********
+                           ++++++++++++++++++++++++
+==================================================================================*/
+
+
+#heading {
+
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+#lowHeading {
+
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+

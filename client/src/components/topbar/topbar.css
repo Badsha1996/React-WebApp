@@ -1,0 +1,99 @@
+/*
+* Topbar will be stick to the top even the
+* user scroll down it's position will remain top 0
+* flex is used for multi wrapper classes to separate
+*/
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #7C55DD;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+
+.topbarLogo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: 800;
+    color: aliceblue;   
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/*
+* Flex means each wrapper class takes units of space
+* that is classified by flex numbers 
+*/
+.topbarLeft{
+    flex: 3;
+}
+.topbarCenter{
+    flex: 5;
+}
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    font-size: 25px !important;
+    margin: 10px;
+}
+.searchInput{
+    border: none;
+    width: 80%;
+}
+.searchInput:focus{
+    outline: none;
+}
+/*
+* space around will give it space both side
+*/
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: azure;
+}
+.topbarLink{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+.topbarIconItem{
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.topbarIconBadge{
+    height: 15px;
+    width: 15px;
+    background-color:red;
+    border-radius: 50%;
+    color: white;
+    position:absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topbarImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
