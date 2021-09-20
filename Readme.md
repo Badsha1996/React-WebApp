@@ -1,7 +1,5 @@
 # For Running the front end code:
-{% raw %}
 The Backend has some bugs in it so you can run the frontend part for now. Go to the `client` directory open terminal and type `npm start` 
-{% endraw %}
 # Building Rest API(Back End)
 An API, or application programming interface, is a set of rules that define how applications or devices can connect to and communicate with each other. A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style. For this reason, REST APIs are sometimes referred to RESTful APIs.
 
@@ -111,5 +109,5 @@ I am considering contemporary color and monochrometic color format, for that i a
 # Hooks and Context API:
 In this section we will just join togather the backend and front code with each other. First we will need a very powerful librery [React-router-dom](https://www.npmjs.com/package/router-dom). For installation just go to the frontend directory and type in terminal `npm add react-router-dom`. Go to [this](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/guides/quick-start.md) website for more clear read.
 
-{% endraw %}
+
 
